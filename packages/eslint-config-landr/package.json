@@ -19,15 +19,15 @@
         "url": "https://github.com/Mixgenius/linting-and-formatting/tree/master/eslint-config-landr"
     },
     "peerDependencies": {
-        "@typescript-eslint/eslint-plugin": "^4.9.0",
-        "@typescript-eslint/parser": "^4.9.0",
-        "eslint": "^7.14.0",
-        "eslint-config-prettier": "^6.15.0",
-        "eslint-plugin-import": "^2.22.0",
-        "eslint-plugin-prettier": "^3.2.0",
-        "eslint-plugin-react-hooks": "^4.0.8",
-        "prettier": "^2.2.1",
-        "typescript": "^4.1.2"
+        "@typescript-eslint/eslint-plugin": ">=4.9.0",
+        "@typescript-eslint/parser": ">=4.9.0",
+        "eslint": ">=7.14.0",
+        "eslint-config-prettier": ">=6.15.0",
+        "eslint-plugin-import": ">=2.22.0",
+        "eslint-plugin-prettier": ">=3.2.0",
+        "eslint-plugin-react-hooks": ">=4.0.8",
+        "prettier": ">=2.2.1",
+        "typescript": ">=3.8.3"
     },
     "engines": {
         "node": ">= 4"
