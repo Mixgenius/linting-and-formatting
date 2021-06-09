@@ -77,7 +77,7 @@ module.exports = {
                 'eslint:recommended',
                 'plugin:@typescript-eslint/eslint-recommended',
                 'plugin:@typescript-eslint/recommended',
-                'prettier/@typescript-eslint',
+                'prettier',
             ],
             plugins: ['@typescript-eslint'],
             rules: {
@@ -92,8 +92,7 @@ module.exports = {
                         selector: 'property',
                         format: ['camelCase', 'UPPER_CASE'],
                         filter: {
-                            regex:
-                                '^(utm_campaign|utm_content|utm_medium|utm_source|utm_term|utm_invalid|content_name|content_category|api_plan)$',
+                            regex: '^(utm_campaign|utm_content|utm_medium|utm_source|utm_term|utm_invalid|content_name|content_category|api_plan)$',
                             match: false,
                         },
                     },
@@ -114,8 +113,8 @@ module.exports = {
                 ],
                 '@typescript-eslint/no-inferrable-types': 'error',
                 '@typescript-eslint/type-annotation-spacing': 'error',
-                "no-use-before-define": "off",
-                "@typescript-eslint/no-use-before-define": "off",
+                'no-use-before-define': 'off',
+                '@typescript-eslint/no-use-before-define': 'off',
                 // you must disable the base rule no-unused-vars as it can report incorrect errors
                 'no-unused-vars': 'off',
                 '@typescript-eslint/no-unused-vars': [

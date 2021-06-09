@@ -33,6 +33,6 @@
         "node": ">= 4"
     },
     "optionalDependencies": {
-        "eslint-plugin-react": "^7.21.5"
+        "eslint-plugin-react": "^7.24.0"
     }
 }
